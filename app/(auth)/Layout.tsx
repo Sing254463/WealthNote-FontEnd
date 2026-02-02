@@ -1,13 +1,15 @@
-const Layout = ({
+import Navber from "@/components/Navber/Navber";
+
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navber />
       {children}
     </>
   );
 };
-export default Layout;
+export default RootLayout;
