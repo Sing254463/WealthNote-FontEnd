@@ -1,3 +1,4 @@
+
 import Navber from "@/components/Navber/Navber";
 
 const RootLayout = ({
@@ -8,7 +9,9 @@ const RootLayout = ({
   return (
     <>
       <Navber />
+      <main className="container mx-auto p-4">
       {children}
+      </main>
     </>
   );
 };
